@@ -1,0 +1,2 @@
+#!/bin/bash
+/usr/local/sbin/ansible-pull -d /root/ansible -U git@bitbucket.org:therapia/ansible.git -C demo -i inventory/demo --accept-host-key --purge playbooks/demo/pull/puma.yml
